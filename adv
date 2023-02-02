@@ -125,6 +125,7 @@ border-collapse: collapse;
 padding: 10px;
 margin: 10px;
 }
+.
 
 </style>
 </head>
@@ -145,7 +146,7 @@ margin: 10px;
 
 
 <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">American Grand Touring</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Adventure Touring</h3>
   </div>
 
   <!-- Slideshow container -->
@@ -186,7 +187,7 @@ margin: 10px;
 <h3>2023 Road King Special</h3>
 
 <h2 style="text-align:center;"><strong>Specification</strong></h2>
-<table class="center" style="width: 95%" >
+<div class="table"><table class="center" style="width: 95%" >
   <tr>
     <th>HORSEPOWER</th>
     <td>93 HP / 69 kW @ 5250 rpm</td>
