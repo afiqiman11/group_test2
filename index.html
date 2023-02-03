@@ -23,11 +23,21 @@
 table, td, tr
 {
   padding: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #F5F5F5 ;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: #F5F5F5;
+  size: 100%;
+}
+.zoom {
+  transition: transform .2s;
+  width: 100%;
 }
 
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
 
 </style>
 </head>
@@ -65,28 +75,35 @@ table, td, tr
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="zoom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Sport</div>
         <a href="sport.html"><img src="images/hd_bike1.jpg" alt="Sport" style="width:100%" class="center" ></a>
       </div>
+      </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="zoom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Cruiser</div>
         <a href="cruiser.html"><img src="images/hd_bike2.jpg" alt="Cruiser" style="width:100%" class="center" ></a>
       </div>
+      </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="zoom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">American Grand Tour</div>
-        <a href="agt.html"><img src="images/hd_agt.jpg" alt="American Grand Tour" class="center" style="width:100%"></a>
+        <a href="agt.html"><img src="images/hd_agt.jpg" alt="American Grand Tour" class="center" style="width:100%"></a></div>
       </div2>
     </div>
   </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="zoom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Adventure Touring</div>
         <a href="adv.html"><img src="images/hd_bike_adv.jpg" alt="American Grand Tour" class="center" style="width:100%"></a>
+      </div>
       </div2>
     </div>
   </div>
