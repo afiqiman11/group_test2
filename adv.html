@@ -100,11 +100,6 @@ img
 {
   float: ;
 }
-h2
-{
-  margin-left: 10px;
-  background-color: #f48322;
-}
 h3
 {
   padding: 30px;
@@ -117,13 +112,20 @@ h3
   margin-right: auto;
   width: 50%;
 }
-table, tr, th
+table,tr,th,td
 {
-text-align: center;
-border: 1px solid;
-border-collapse: collapse;
-padding: 10px;
-margin: 10px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 30px;
+  align-content: center;
+}
+th,td
+{ 
+  padding: 10px;
+}
+tr:nth-child(odd)
+{
+  background-color: lightgrey;
 }
 .
 
@@ -206,27 +208,28 @@ margin: 10px;
 
 <h3>2023 Road King Special</h3>
 
-<h2 style="text-align:center;"><strong>Specification</strong></h2>
-<div class="table"><table class="center" style="width: 95%" >
+<h2><strong><center>Detailed Specs</center></strong></h2>
+<div class="table">
+<table style="width: 95%" align="center">
   <tr>
     <th>HORSEPOWER</th>
-    <td>93 HP / 69 kW @ 5250 rpm</td>
+    <td>150 HP / 112 kW @ 8750 rpm</td>
   </tr>
   <tr>
     <th>FUEL CAPACITY</th>
-    <td>22.7 l</td>
+    <td>21.2 l</td>
   </tr>
   <tr>
     <th>TYRE TYPES</th>
-    <td>Dunlop Harley-Davidson Series, bias blackwall front and rear</td>
+    <td>Michelin™ Scorcher™ “Adventure”, Radial</td>
   </tr>
   <tr>
     <th>WEIGHT</th>
-    <td>351 kg</td>
+    <td>242 kg</td>
   </tr>
   <tr>
     <th>ENGINE</th>
-    <td>Milwaukee-Eight™ 114</td>
+    <td>Revolution™ Max 1250</td>
   </tr>
   <tr>
     <th>FUEL SYSTEM</th>
@@ -234,7 +237,7 @@ margin: 10px;
   </tr>
   <tr>
     <th>EXHAUST</th>
-    <td>Black, 2-1-2 dual exhaust with tapered mufflers</td>
+    <td>2-into-1-into-1; catalyst in header</td>
   </tr>
 </table>
 
